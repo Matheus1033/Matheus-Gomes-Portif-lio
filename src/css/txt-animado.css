@@ -1,0 +1,41 @@
+.apresentacao-das-tecnologias {
+    font-size: 45px;
+    font-weight: 300;
+} .apresentacao-das-tecnologias .animated-hero{
+    position: relative;
+} .apresentacao-das-tecnologias .animated-hero::before{
+    content: "";
+    color: var(--color);
+    animation: palavras 20s infinite;
+} @keyframes palavras {
+    0%, 20% {
+        content: "HTML5";
+    } 21%, 40% {
+        content: "CSS3";
+    } 41%, 60% {
+        content: "JavaScript";
+    } 61%, 80% {
+        content: "Node.js";
+    } 81%, 100% {
+        content: "React";
+    }
+} .apresentacao-das-tecnologias .animated-hero::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid var(--color);
+    right: -10px;
+    animation: cursor 0.95s infinite, digita 20s infinite steps(10);
+    width: calc(100% + 15px);
+    background-color: var(--background);
+} @keyframes cursor {
+    0%{
+        border-left: 2px solid var(--color-2);
+    } 
+} @keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    } 5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 15px);
+    } 
+}
