@@ -1,0 +1,25 @@
+@media (max-width: 425px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .countainer-sobre {
+        width: 300px;
+        font-size: 1rem;
+        line-height: 20px;
+        text-indent: 20px;
+    }
+    .works li {
+        width: 100px;
+    }
+    .footer .social ul li a img {
+        width: 25px;
+        height: 25px;
+    }
+}
