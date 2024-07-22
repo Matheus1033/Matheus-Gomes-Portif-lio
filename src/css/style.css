@@ -12,7 +12,7 @@ span {
 .header {
     background-color: var(--background);
     padding: 20px 50px;
-    width: 98vw;
+    width: 100%;
     color: var(--color-2);
     font-weight: 500;
 } .header-countainer {
@@ -20,7 +20,7 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-} a.logo {
+} .logo {
     color: var(--color);
     font-size: 3em;
     font-family: var(--font-diferent);
@@ -51,6 +51,19 @@ span {
     transition: .3s linear;
 } .lang a.active {
     opacity: 0.5;
+} @media (max-width:425px) {
+    .header {
+        width: 903px;
+    } .logo {
+        font-size: 3rem;
+    } .lang {
+        position: absolute;
+        background-color: #ddd;
+        right: 0.5px;
+        width: 200px;
+    } .hamburguer {
+        margin: 0 450px;
+    }
 }
 /*Hero*/
  .hero {
@@ -85,6 +98,11 @@ span {
     color: var(--color);
     border: 2px solid var(--color-2);
     font-weight: 800;
+ } @media (max-width: 425px) {
+    .hero {
+        width: 700px;
+        margin-left: 50px;
+    }
  }
 /*Sobre*/
  .sobre {
@@ -124,6 +142,13 @@ span {
     margin: 0 10px;
     width: 50px;
     height: 50px;
+ } @media (max-width: 425px) {
+    .sobre {
+        width: 800px;
+    }.countainer-sobre {
+        margin-left: 100px;
+        font-size: 2rem;
+    }
  }
 /*Works*/
 .works-countainer {
@@ -139,8 +164,22 @@ span {
     margin:10px 10px;
 } .works-countainer li a:hover {
     opacity: 0.2;
-} .works p {
-    margin: 0 15px;
+    font-family: var(--font);
+} .works-countainer p {
+  color: var(--font-color-2);
+} @media (max-width: 425px) {
+    .works-countainer {
+        width: 903px;
+    }.works ul {
+        display: flex;
+        flex-direction: column;
+    } .works li {
+        width: 800px;
+        margin-bottom: 10px;
+    } .works-countainer p {
+        margin-top: 10px;
+        font-size: 27px;
+    }
 }
 /*Footer*/
 .footer{
@@ -180,4 +219,9 @@ span {
     transition: .8s ease;
 } .footer .social ul li a img:hover {
     transform: scale(1.15);
+} @media (max-width: 425px) {
+    .footer-countainer {
+        width: 800px;
+        margin-left: 50px;
+    }
 }
