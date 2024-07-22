@@ -58,4 +58,16 @@ body {
     color: var(--color-2);
     border-color: var(--color);
     border-radius: 16px;
-} 
+} @media (max-width: 425px) {
+    section {
+        width: 350px;
+    } section h2 {
+        font-size: 1.7rem;
+    } form label {
+        font-size: 13px;
+    } form input {
+        font-size: 10px;
+    } form textarea {
+        font-size: 10px;
+    }
+}
