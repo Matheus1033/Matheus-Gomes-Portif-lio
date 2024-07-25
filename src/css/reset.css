@@ -10,7 +10,14 @@
     font-weight: 400;
     font-style: normal;
     background-color: var(--background);
-    max-width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "hero hero hero hero"
+    "sobre sobre sobre sobre"
+    "works works works works"
+    "footer footer footer footer";
+    grid-template-columns: repeat(4,1fr);
 } a {
     text-decoration: none;
     cursor: pointer;
