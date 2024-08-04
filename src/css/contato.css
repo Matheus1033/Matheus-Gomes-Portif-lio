@@ -9,65 +9,65 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px 45px;
-    border-radius: 20px;
+    padding: 0.625rem 2.813rem;
+    border-radius: 1.25rem;
     background: var(--color-2);
-    width: 450px;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+    width: 28.125rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 0.313rem 0.938rem;
 } section h2 {
     color: var(--font-color-2);
     font-size: 2.5rem;
-    margin: 10px;
+    margin: 0.625rem;
 } section form {
     display: flex;
     flex-direction: column;
     width: 100%;
 } form label {
     color: var(--font-color-2);
-    font-size: 17px;
-    margin-bottom: 4px;
+    font-size: 1.063rem;
+    margin-bottom: 0.25rem;
 } form input {
-    padding: 15px;
+    padding: 0.938rem;
     outline: none;
     border: 0;
-    margin-bottom: 20px;
-    font-size: 15px;
+    margin-bottom: 1.25rem;
+    font-size: 0.938rem;
     transition: all .5s;
 } form input:focus {
-    border-radius: 16px;
+    border-radius: 1rem;
 } form textarea {
-    padding: 10px;
+    padding: 0.625rem;
     outline: none;
     border: 0;
-    font-size: 15px;
-    margin-bottom: 30px;
+    font-size: 0.938rem;
+    margin-bottom: 1.875rem;
     transition: all .5s;
 } form textarea:focus {
-    border-radius: 16px;
+    border-radius: 1rem;
 } form button {
-    padding: 15px;
+    padding: 0.938rem;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
     background: transparent;
-    border: 2px solid var(--font-color-2);
+    border: 0.125rem solid var(--font-color-2);
     color: var(--font-color-2);
     transition: all 1s;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 } form button:hover{
     background-color: var(--color);
     color: var(--color-2);
     border-color: var(--color);
-    border-radius: 16px;
+    border-radius: 1rem;
 } @media (max-width: 425px) {
     section {
-        width: 350px;
+        width: 21.875rem;
     } section h2 {
         font-size: 1.7rem;
     } form label {
-        font-size: 13px;
+        font-size: 0.813rem;
     } form input {
-        font-size: 10px;
+        font-size: 0.625rem;
     } form textarea {
-        font-size: 10px;
+        font-size: 0.625rem;
     }
 }

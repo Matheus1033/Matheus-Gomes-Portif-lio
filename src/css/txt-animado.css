@@ -1,5 +1,5 @@
 .apresentacao-das-tecnologias {
-    font-size: 45px;
+    font-size: 2.813rem;
     font-weight: 300;
 } .apresentacao-das-tecnologias .animated-hero{
     position: relative;
@@ -23,19 +23,19 @@
     content: "";
     position: absolute;
     height: 100%;
-    border-left: 2px solid var(--color);
-    right: -10px;
+    border-left: 0.125rem solid var(--color);
+    right: -0.625rem;
     animation: cursor 0.95s infinite, digita 20s infinite steps(10);
-    width: calc(100% + 15px);
+    width: calc(100% + 0.938rem);
     background-color: var(--background);
 } @keyframes cursor {
     0%{
-        border-left: 2px solid var(--color-2);
+        border-left: 0.125rem solid var(--color-2);
     } 
 } @keyframes digita {
     10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
         width: 0;
     } 5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
-        width: calc(100% + 15px);
+        width: calc(100% + 0.938rem);
     } 
 }
