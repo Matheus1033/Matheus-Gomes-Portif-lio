@@ -1,10 +1,9 @@
 :root {
-    --color: #e53939;
-    --color-2: #000;
-    --gradient: linear-gradient(155deg, #95190C, var(--color), #F38375);
-    --background: #fff;
-    --font: "Poppins", serif;
-    --font-diferent: "Brittany", cursive;
-    --font-color: #000;
-    --font-color-2: #fff;
+  --color: #e53939;
+  --color-2: #000;
+  --background: #fff;
+  --font: "Poppins", serif;
+  --font-diferent: "Brittany", cursive;
+  --font-color: #000;
+  --font-color-2: #fff;
 }
