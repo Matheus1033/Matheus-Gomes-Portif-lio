@@ -58,7 +58,7 @@ let data = {
     animated: "Eu tabalho com",
     hireMe: "Me contate",
     download: "Baixar CV",
-    description: `Meu nome é Matheus Gomes, tenho 18 anos e sou um desenvolvedor full-stack que gosta de criar sites e interfaces de usuário. Tenho praticado e aprimorado minhas habilidades através da criação de projetos pessoais, o que me proporciona diversão e apredizado com as tecnologias mais recentes. Atualmente, estou em busca de oportunidades para expandir meu conhecimento e experiência na área de desenvolvimento full stack. Acredito que minha dedicação, juntamente com minha capacidade de aprender e habilidades, me permitirá contribuir de maneira significativa para o sucesso da equipe e da empresa. Estou entusiasmado para enfrentar novos desafios e aprender com exelentes profissionais.`,
+    description: `Meu nome é Matheus Gomes, tenho 18 anos e sou um desenvolvedor full-stack que gosta de criar sites e interfaces de usuário. Tenho praticado e aprimorado minhas habilidades através da criação de projetos pessoais, o que me proporciona diversão e apredizado com as tecnologias mais recentes. Atualmente, estou em busca de oportunidades para expandir meu conhecimento e experiência na área de desenvolvimento full stack. Acredito que minha dedicação, juntamente com minha capacidade de aprender e habilidades, me permitirá contribuir de maneira significativa para o sucesso da equipe e da empresa. Estou Animado para enfrentar novos desafios e aprender com exelentes profissionais.`,
     descriptionOnePiece:
       "Este é um projeto dado pelo meu curso de programação sobre One Piece, um anime japonês muito famoso.",
     descriptionRelationship:
